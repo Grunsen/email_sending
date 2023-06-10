@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "email-sending"
+version = "0.1.0"
+description = ""
+authors = ["Grunsen"]
+readme = "README.md"
+packages = [{include = "email_sending"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yagmail = "^0.15.293"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
